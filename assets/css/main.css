@@ -2753,7 +2753,7 @@ button:disabled,
 }
 
 .wrapper.style2 {
-    background-color: grba(0,0,0,0.8);
+    background-color: grba(0, 0, 0, 0.8);
 }
 
 .wrapper.style3 {
@@ -3762,6 +3762,10 @@ body.is-mobile.landing #footer {
     background-repeat: no-repeat;
 }
 
+#two{
+	background-color: rgba(0,0,0,0.2);
+}
+
 #personal-pic {
     width: 300px;
     height: 50vh;
@@ -3780,6 +3784,6 @@ body.is-mobile.landing #footer {
 }
 
 #innerTxt {
-	background-color: rgba(0, 0, 0, 0.7);
-	padding: 2%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2%;
 }
