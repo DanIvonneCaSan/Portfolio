@@ -1,12 +1,10 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
-
 /*
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
 
 /* Reset */
 
@@ -144,7 +142,6 @@ body {
     -webkit-text-size-adjust: none;
 }
 
-
 /* Box Model */
 
 *,
@@ -154,7 +151,6 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-
 
 /* Grid */
 
@@ -1337,7 +1333,6 @@ body {
     }
 }
 
-
 /* Basic */
 
 @-ms-viewport {
@@ -1558,7 +1553,6 @@ pre code {
     text-align: right;
 }
 
-
 /* Section/Article */
 
 section.special,
@@ -1623,7 +1617,6 @@ header.major p {
         display: none;
     }
 }
-
 
 /* Form */
 
@@ -1819,7 +1812,6 @@ input[type="radio"]+label:before {
     opacity: 1.0;
 }
 
-
 /* Box */
 
 .box {
@@ -1840,7 +1832,6 @@ input[type="radio"]+label:before {
     border-radius: 0;
     padding: 0;
 }
-
 
 /* Icon */
 
@@ -1905,7 +1896,6 @@ input[type="radio"]+label:before {
     color: #76ddff;
 }
 
-
 /* Image */
 
 .image {
@@ -1951,7 +1941,6 @@ input[type="radio"]+label:before {
 .image.fit img {
     width: 100%;
 }
-
 
 /* List */
 
@@ -2116,7 +2105,6 @@ dl {
     margin: 0 0 2em 0;
 }
 
-
 /* Table */
 
 .table-wrapper {
@@ -2184,7 +2172,6 @@ table.alt thead {
 table.alt tfoot {
     border-top: 0;
 }
-
 
 /* Button */
 
@@ -2326,7 +2313,6 @@ button:disabled,
     }
 }
 
-
 /* Features */
 
 .features {
@@ -2445,7 +2431,6 @@ button:disabled,
     }
 }
 
-
 /* Spotlight */
 
 .spotlight {
@@ -2562,7 +2547,6 @@ button:disabled,
         padding: 3em 2em 1em 2em;
     }
 }
-
 
 /* Wrapper */
 
@@ -3094,7 +3078,6 @@ button:disabled,
     }
 }
 
-
 /* Page Wrapper + Menu */
 
 #page-wrapper {
@@ -3211,7 +3194,6 @@ body.is-menu-visible #menu {
     -ms-transform: translateX(0);
     transform: translateX(0);
 }
-
 
 /* Header */
 
@@ -3332,7 +3314,6 @@ body.is-menu-visible #menu {
     opacity: 0;
 }
 
-
 /* Banner */
 
 #banner {
@@ -3442,7 +3423,7 @@ body.is-menu-visible #menu {
 }
 
 #banner .more:after {
-    background-image: url("images/kobu-agency-409288-unsplash.jpg");
+    background-image: url("images/arrow.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -3522,7 +3503,6 @@ body.is-loading #banner:after {
     opacity: 1;
 }
 
-
 /* CTA */
 
 #cta .inner {
@@ -3576,7 +3556,6 @@ body.is-loading #banner:after {
         max-width: none;
     }
 }
-
 
 /* Main */
 
@@ -3640,7 +3619,6 @@ body.is-loading #banner:after {
 body.is-mobile #main>header {
     background-attachment: scroll;
 }
-
 
 /* Footer */
 
@@ -3715,7 +3693,6 @@ body.is-mobile #main>header {
     }
 }
 
-
 /* Landing */
 
 body.landing #page-wrapper {
@@ -3753,7 +3730,6 @@ body.is-mobile.landing #footer {
     background-color: #1d242a;
 }
 
-
 /* My styles */
 
 #one {
@@ -3762,8 +3738,8 @@ body.is-mobile.landing #footer {
     background-repeat: no-repeat;
 }
 
-#two{
-	background-color: rgba(0,0,0,0.2);
+#two {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 #personal-pic {
@@ -3781,6 +3757,14 @@ body.is-mobile.landing #footer {
     float: right;
     padding: 5%;
     text-decoration: none;
+}
+
+#programslist li,
+#programslist2 li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: auto;
 }
 
 #innerTxt {
