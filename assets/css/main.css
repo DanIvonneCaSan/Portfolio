@@ -1885,15 +1885,15 @@ input[type="radio"]+label:before {
 }
 
 .icon.style1 {
-    color: #00ffcc;
+    color: #b09cc3;
 }
 
 .icon.style2 {
-    color: #00f0ff;
+    color: #E7CEE3;
 }
 
 .icon.style3 {
-    color: #76ddff;
+    color: #FFB8D1;
 }
 
 /* Image */
@@ -2383,7 +2383,7 @@ button:disabled,
 
 .features li:before {
     display: block;
-    color: #00ffcc;
+    color: #b09cc3;
     position: absolute;
     left: 1.75em;
     top: 2.75em;
@@ -3112,8 +3112,8 @@ button:disabled,
     -ms-transition: -ms-transform 0.5s ease;
     transition: transform 0.5s ease;
     -webkit-overflow-scrolling: touch;
-    background: #21b2a6;
-    color: #ffffff;
+    background: #8E9AAF;
+    color: #2F3842;
     height: 100%;
     max-width: 80%;
     overflow-y: auto;
@@ -3164,6 +3164,7 @@ button:disabled,
     background-position: 4.85em 1em;
     background-repeat: no-repeat;
     border: 0;
+    color: #2F3842;
     cursor: pointer;
     display: block;
     height: 3em;
@@ -3787,7 +3788,7 @@ canvas {
 #particles-js {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 200vh;
     background-color: #2e3842;
     background-image: url("");
     background-repeat: no-repeat;
@@ -3831,4 +3832,8 @@ canvas {
 
 .count-particles {
     border-radius: 0 0 3px 3px;
+}
+
+a.close {
+    color: #2F3842;
 }
